@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: linear-gradient(to right, #ff6b6b, #ffa500);
+}
+
+.navbar {
+    background-color: #003366;
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+h1 {
+    color: #A50044;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.section img {
+    border: 1px solid #003366;
+}
+/*
+    Page 2 Styling
+*/
+fieldset {
+    border: 1px solid #003366;
+    padding: 20px;
+    margin: 20px;
+}
+
+legend {
+    color: #A50044;
+    font-weight: bold;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, textarea, button {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #003366;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #A50044;
+}
+/*
+    Page 3 Styling
+*/
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+ul li a {
+    color: #003366;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+ul li a:hover {
+    color: #A50044;
+}
+/*
+    Page 4 Styling
+*/
+
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.image-item {
+    text-align: center;
+}
+
+.image-item a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.image-item img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.image-item p {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #003366;
+}
